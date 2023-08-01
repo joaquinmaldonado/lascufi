@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.logo img {
+  width: 120px;
+  margin-left: 187px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 10;
+  /* Ajusta este valor si es necesario */
+  padding: 0;
+  /* Elimina el relleno (padding) para eliminar espacios adicionales */
+}
+
+.menu li {
+  margin-left: 20px;
+  /* Ajusta este valor si deseas agregar espacio entre los botones */
+}
+
+.menu li:first-child {
+  margin-left: 0px;
+  /* Ajusta este valor para mover todos los botones hacia la izquierda */
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #dbba78;
+  /* Cambia #f00 por el color que desees */
+}
+
+/* Estilos solo para el texto "INICIO" en el navbar */
+#inicio-link {
+  color: #dbba78;
+  /* Cambia #f00 por el color que desees */
+}
+
+
+/* Estilos solo para el texto "INICIO" en el navbar */
+#inicio-link {
+  color: #dbba78;
+  /* Cambia #f00 por el color que desees */
+}
+
+
+/* Estilos solo para el texto "INICIO" en el navbar */
+#inicio-link {
+  color: #dbba78;
+  /* Cambia #f00 por el color que desees */
+}
+/* Estilos para la imagen a la derecha del navbar */
+.navbar-img img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+
+/* Sección Inicio styles */
+.inicio-section {
+  height: 50vh;
+  background-image: url("images/background-inicio.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000c7;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-hacer-pedido {
+  display: inline-block;
+  background-color: transparent;
+  /* Establecer el fondo como transparente */
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: "Josefin Sans", Sans-serif;
+  border: 2px solid #dbba78;
+  /* Establecer un borde de 2px de ancho de color amarillo */
+}
+
+/* Estilos para el texto "il momento felice" en la sección de inicio */
+.inicio-section h1 {
+  font-family: "DM Serif Text", Sans-serif;
+  /* Cambia "Arial" por la fuente que desees */
+  color: #ffffff;
+  /* Cambia #ff0000 por el color que desees */
+  font-weight: 300;
+  font-size: 75px;
+}
+
+/* Sección El verdadero helado artesanal styles */
+.sabores-section {
+  background-color: #231F20;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* Agregamos posición relativa para el contenedor */
+}
+
+.sabores-content {
+  display: flex;
+  align-items: center;
+}
+
+.helado-img-container {
+  flex: 1;
+  text-align: right;
+  /* Alinear la imagen a la derecha */
+}
+
+.helado-img {
+  width: 640px;
+  height: 425px;
+}
+
+.sabores-text {
+  flex: 1;
+  max-width: 50%;
+  /* Limitamos el ancho del texto para que esté a la derecha */
+  padding-left: 400px;
+  /* Espacio entre la imagen y el texto */
+  text-align: right;
+  /* Alinear el texto a la derecha */
+  font-family: "DM Serif Text", Sans-serif;
+  font-size: 27px;
+}
+
+.sabores-text h2 {
+  margin-bottom: 80px;
+  font-weight: 400;
+}
+
+.sabores-text p {
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 20px;
+  /* Tamaño de fuente para el párrafo */
+  text-align: justify;
+  /* Justificar el texto */
+}
+
+.separator-line {
+  position: absolute;
+  top: 10%;
+  /* Colocar la línea en el medio vertical */
+  left: 0;
+  right: 0;
+  width: 1px;
+  /* Ancho de la línea vertical */
+  height: 80%;
+  /* Altura de la línea vertical */
+  margin: auto;
+  /* Centrar la línea vertical */
+  background-color: #dbba78;
+  /* Color de la línea */
+}
+
+/* Sección Receta italiana exclusiva styles */
+.sabores-exclusivos-section {
+  background-color: #231F20;
+  color: #fff;
+  padding: 50px;
+}
+
+.sabores-exclusivos-content {
+  text-align: center;
+}
+
+.sabores-exclusivos-content h2 {
+  margin-bottom: 10px;
+  font-family: "DM Serif Text", Sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.sabores-exclusivos-content p {
+  margin-bottom: 30px;
+  /* Agrega espacio entre las imágenes y el texto */
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.sabores-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.sabor-item {
+  position: relative;
+  margin-right: 30px;
+  /* Espacio entre cada imagen */
+  margin-bottom: 30px;
+}
+
+.sabores-gallery img {
+  width: 220px;
+  /* Tamaño deseado de las imágenes */
+  height: 220px;
+  /* Tamaño deseado de las imágenes */
+  transition: filter 0.3s;
+  /* Agrega una transición suave */
+}
+
+.sabor-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "DM Serif Text", Sans-serif;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.sabor-item:hover img {
+  filter: brightness(70%);
+  /* Oscurece la imagen al pasar el mouse */
+}
+
+.sabor-item:hover .sabor-text {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* Estilos para el botón "Explorá nuestros sabores" en la sección Receta italiana exclusiva */
+.btn-hacer-pedido {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px solid #dbba78;
+  /* Agregamos un borde de 2px de color #dbba78 */
+  transition: background-color 0.3s, color 0.3s;
+  /* Agregamos una transición suave */
+}
+
+.btn-hacer-pedido:hover {
+  background-color: #dbba78;
+  /* Color de fondo cuando el mouse está encima */
+  color: #231F20;
+  /* Color del texto cuando el mouse está encima */
+}
+
+/* Estilo predeterminado para el botón sin pasar el mouse */
+.btn-hacer-pedido:not(:hover) {
+  background-color: transparent;
+  color: #fff;
+}
+
+
+
+
+/* Sección Sucursales styles */
+.sucursales-section {
+  background-color: #231F20;
+  color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+.sucursales-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.sucursales-section h2 {
+  font-family: "DM Serif Text", Sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.sucursales-section h3 {
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: #dbba78;
+  font-weight: 400;
+}
+
+.sucursales-section p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  align-content: center;
+  margin-left: 510px;
+}
+
+/* Sección Unite a Nuestro Equipo styles */
+.trabajos-section {
+  background-color: #231F20;
+  padding: 50px;
+  text-align: center;
+}
+
+.trabajos-section h2 {
+  margin-bottom: 20px;
+  font-family: "DM Serif Text", Sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contacto-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contacto-form label,
+.contacto-form input,
+.contacto-form textarea,
+.contacto-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: #dbba78; /* Cambiamos el color del texto a negro */
+}
+
+.contacto-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  width: auto; /* Ajustamos el ancho del botón a su contenido */
+  margin: 0 auto; /* Para centrar el botón */
+  margin-left: 160px;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url('fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
